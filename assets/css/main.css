@@ -1,0 +1,81 @@
+.afterFloat:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+body {
+  background: #25738e;
+}
+.content {
+  background: white;
+  margin: 0 auto;
+  width: 500px;
+}
+.navigation {
+  margin: 0;
+  padding: 0;
+  background: #9ad1e5;
+  text-align: center;
+}
+.navigation li {
+  display: inline-block;
+}
+.navigation li a {
+  padding: 5px 10px;
+  display: block;
+  color: #133c4b;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+}
+.navigation li a.active,
+.navigation li a.active:hover {
+  cursor: default;
+  color: white;
+  background: #339ec4;
+}
+.navigation li a:hover {
+  background: #7fc5de;
+  color: #e8eb22;
+}
+.preview {
+  min-height: 100px;
+  padding: 10px;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.list a {
+  padding: 5px;
+  display: block;
+}
+.list a:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.list a:hover {
+  background: #ebf6fa;
+}
+.list img {
+  max-width: 60px;
+}
+.list div {
+  float: left;
+}
+.item .title {
+  font-weight: bold;
+  text-align: center;
+  font-size: 120%;
+}
+.item .img {
+  text-align: center;
+  margin: 10px 0;
+}
+.item .img img {
+  max-width: 480px;
+  margin: 0 auto;
+}

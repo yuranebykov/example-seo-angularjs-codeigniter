@@ -1,0 +1,6 @@
+AddDefaultCharset utf-8
+
+RewriteEngine On
+RewriteCond $1 !^(index\.php|assets)
+RewriteRule ^(.*)$ /index.php/$1 [L,QSA]
+

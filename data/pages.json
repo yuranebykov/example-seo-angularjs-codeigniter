@@ -1,0 +1,6 @@
+[
+    {"id": "", "title": "Home"},
+    {"id": "books", "title": "Books"},
+    {"id": "movies", "title": "Movies"},
+    {"id": "comics", "title": "Comics"}
+]
